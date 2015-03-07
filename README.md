@@ -38,8 +38,9 @@ this is what we provided in the corresponding Vagrantfile.
 
 Inside your environment, you'll find a folder named 'myrailsprojects'. This is the synced folder and you
 should place here all your rails app. There's  a demo rails app named 'toy_app' within 'myrailsprojects'.
-You can erased this app or play around with it.
+You can erased this app or play around with it. If you decide to use this skeleton app, remember to run
+'bundle install' first.
 
 To start a  rails server from your current terminal (remember this is your virtual environment), use:
-'rails s -b 0.0.0.0'
+'rails s -b 0.0.0.0'. On you browser go then to localhost:3030 to see your app running.
 
